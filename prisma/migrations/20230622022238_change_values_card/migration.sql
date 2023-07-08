@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Card" ALTER COLUMN "status" SET DEFAULT 0,
+ALTER COLUMN "description" DROP NOT NULL;
